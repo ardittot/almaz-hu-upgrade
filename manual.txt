@@ -1,0 +1,3 @@
+javac Main_remote_*.java
+jar cvf Main.jar Main_remote_*.class
+java -cp Main.jar Main_remote_windows_TEST
